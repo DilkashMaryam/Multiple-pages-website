@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #306fce;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  .navlinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navlinks li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navlinks li a:hover {
+    color: #ddd;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .navlinks {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
